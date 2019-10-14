@@ -1,0 +1,10 @@
+Simulation of transposon insertions in genomes
+
+please cite Goodall et al., "The Essential Genome of Escherichia coli K-12"
+DOI 10.1128/mBio.02096-17
+
+simulate-ifrs.c
+  C code simulating random transposon insertions of given frequencies in genomes of given lengths. Many insertion sets are simulated, then statistics of insertion-free regions are reported.
+
+plot-ifr-prob.sh
+  Gnuplot script plotting the output of the above for comparison and for comparison with p = 0.05 thresholds.
